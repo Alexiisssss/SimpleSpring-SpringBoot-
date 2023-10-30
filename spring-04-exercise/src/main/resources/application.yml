@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:766f4463-1775-42ee-afcd-df3f25129823
+    driverClassName: org.h2.Driver
+    username: root
+    password: root
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update # или create-drop, validate, create, none
+    show-sql: true
+
+
+
